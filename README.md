@@ -16,7 +16,7 @@ Elaborate installations, however,  may benefit to separate attachments and baseU
 
 
 ## License
-Apache Public License as per the [License](LICENSE.txt).
+Apache Public License as per the [License](LICENSE).
 
 ## Build
 Make sure you have configured maven to include all sources necessary to build XWiki (see [How to build](http://dev.xwiki.org/xwiki/bin/view/Community/Building)).
