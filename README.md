@@ -1,6 +1,8 @@
 # absolute-xwiki-urlfactory
 A tiny extension which allows to parametrize the host-name of any URL delivered by XWiki.
 
+This component is derived from [Curriki's CDN URL-factory](https://github.com/xwiki-contrib/currikiorg/tree/master/plugins/cdn).
+
 ## Installation
 This extension is in Java and nedds to be included in `WEB-INF/lib` of the XWiki web-application.  After that, three lines of configuration need to be inserted inside `xwiki.cfg`:
 * `xwiki.urlfactory.serviceclass=net.hoplahup.absoluteurlfactory.AbsoluteURLFactoryServiceImpl`
