@@ -24,13 +24,15 @@ public class AbsoluteURLFactory extends XWikiServletURLFactory {
 
     } */
 
+    private URL serverURL;
+
     @Override
     public void init(XWikiContext context) {
         super.init(context);
         String hostnameParam = context.getWiki().Param("net.hoplahup.absoluteurlfactory.baseURL");
         if(hostnameParam!=null && hostnameParam.trim().length()>0)
             try {
-                super.serverURL = new URL(hostnameParam.trim());
+                serverURL = new URL(hostnameParam.trim());
                 // LOGGER.warn("Corrected baseURL to " + serverURL);
             } catch (MalformedURLException ex) {
                 ex.printStackTrace();

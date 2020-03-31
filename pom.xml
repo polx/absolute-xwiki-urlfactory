@@ -11,7 +11,7 @@
         <dependency>
             <groupId>org.xwiki.platform</groupId>
             <artifactId>xwiki-platform-legacy-oldcore</artifactId>
-            <version>8.2</version>
+            <version>8.4</version>
         </dependency>
 
         <dependency>
@@ -27,6 +27,8 @@
     </dependencies>
     <properties>
         <xwiki.clirr.skip>true</xwiki.clirr.skip>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <build>
     </build>
